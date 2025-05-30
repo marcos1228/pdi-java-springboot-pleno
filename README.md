@@ -1,55 +1,105 @@
-# 📈 Plano de Desenvolvimento Individual (PDI) — Marcos
+# 📈 Plano de Desenvolvimento Individual (PDI) — Marcos Barbosa Evangelista
 
 ## 🎯 Objetivo Geral
-Elevar o nível técnico em desenvolvimento de software backend, com foco em Java Spring Boot, práticas avançadas de arquitetura, testes, qualidade de código e entrega contínua, tornando-se uma referência técnica para soluções robustas e de alta qualidade.
+Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring Boot, com foco em arquitetura, design de software, testes, qualidade e entrega contínua.
 
 ---
 
-## 🏗 Objetivos Específicos
+## 📅 Cronograma Detalhado (12 Meses)
 
-✅ Aprimorar design de software:
-- Dominar arquitetura hexagonal e DDD (Domain-Driven Design)
-- Aplicar SOLID, Clean Code e Clean Architecture em projetos reais
-- Usar padrões de design avançados (strategy, factory, decorator, chain of responsibility)
-
-✅ Avançar em testes:
-- Ampliar cobertura de testes unitários, integrados e de contrato
-- Escrever testes automatizados com JUnit 5, Mockito, Testcontainers
-- Adotar TDD (Test-Driven Development) em partes críticas do código
-
-✅ Melhorar qualidade de código:
-- Analisar e corrigir problemas apontados por SonarQube e SonarLint
-- Implementar revisões de código regulares focadas em padrões e consistência
-- Aplicar métricas como cobertura de código, complexidade ciclomática e maintainability index
-
-✅ Aprimorar integração e versionamento:
-- Gerenciar versões de APIs usando semantic versioning e OpenAPI
-- Automatizar builds e testes com pipelines CI/CD (GitHub Actions, GitLab CI)
-- Garantir rollback seguro e deploys confiáveis (blue/green, canary releases)
-
-✅ Monitorar performance e rastreabilidade:
-- Usar APM (Application Performance Monitoring) para identificar gargalos
-- Implementar logs estruturados, tracing distribuído e métricas detalhadas
-- Medir impacto de mudanças usando indicadores como latência e throughput
+### 🗓 Janeiro — Arquitetura e Fundamentos
+- [ ] Estudar arquitetura hexagonal
+- [ ] Estudar DDD aplicado a microsserviços
+- [ ] Mapear um módulo do projeto atual para refatoração
+- [ ] Levantar acoplamentos desnecessários e dependências cruzadas
 
 ---
 
-## 📅 Plano Trimestral
+### 🗓 Fevereiro — Refatoração e Design
+- [ ] Refatorar um módulo usando arquitetura hexagonal
+- [ ] Aplicar princípios SOLID no código existente
+- [ ] Revisar uso de padrões de design (strategy, factory, decorator)
+- [ ] Documentar padrões adotados no projeto
 
-### 1º Trimestre: Design e Arquitetura
-- Estudar e aplicar arquitetura hexagonal + DDD em um módulo real.
-- Refatorar partes do código aplicando SOLID e Clean Code.
-- Identificar pontos de acoplamento excessivo e redesenhar usando padrões de design.
+---
 
-### 2º Trimestre: Qualidade e Testes
-- Aumentar cobertura de testes unitários acima de 80% em componentes críticos.
-- Introduzir testes de contrato usando Spring Cloud Contract.
-- Automatizar testes com Testcontainers para integração com bancos e filas reais.
+### 🗓 Março — Testes Avançados (Unitário e Integração)
+- [ ] Garantir cobertura unitária > 80% nos componentes críticos
+- [ ] Introduzir testes de integração usando Spring Boot Test
+- [ ] Aprender e aplicar Testcontainers para testes com bancos reais
+- [ ] Automatizar execução de testes no pipeline CI
 
-### 3º Trimestre: Performance e Entrega
-- Configurar SonarQube no pipeline CI/CD e corrigir findings críticos.
-- Medir performance com APM (como New Relic, Elastic APM) e propor melhorias.
-- Implementar deploy seguro com rollback automático e versionamento claro.
+---
+
+### 🗓 Abril — Testes de Contrato e TDD
+- [ ] Estudar Spring Cloud Contract
+- [ ] Implementar testes de contrato para 1 API principal
+- [ ] Aplicar TDD em uma feature nova
+- [ ] Documentar exemplos para o time
+
+---
+
+### 🗓 Maio — Qualidade de Código
+- [ ] Configurar SonarQube no projeto
+- [ ] Corrigir findings críticos e major no Sonar
+- [ ] Reduzir complexidade ciclomática nas classes mais complexas
+- [ ] Monitorar cobertura e maintainability index no pipeline
+
+---
+
+### 🗓 Junho — Integração Contínua
+- [ ] Automatizar builds, testes e lint no CI (GitHub Actions, GitLab CI)
+- [ ] Garantir rollback seguro no pipeline
+- [ ] Criar deploy canário ou blue/green
+- [ ] Adotar semantic versioning nas APIs
+
+---
+
+### 🗓 Julho — Performance e Monitoramento
+- [ ] Configurar Elastic APM ou similar
+- [ ] Monitorar latência e throughput dos endpoints
+- [ ] Identificar e corrigir principais gargalos
+- [ ] Implementar logs estruturados com rastreabilidade
+
+---
+
+### 🗓 Agosto — Observabilidade e Tracing
+- [ ] Estudar OpenTelemetry
+- [ ] Implementar tracing distribuído nos microsserviços
+- [ ] Integrar logs, métricas e traces em um dashboard central
+- [ ] Simular falhas e medir impacto no tracing
+
+---
+
+### 🗓 Setembro — Versionamento e Evolução de APIs
+- [ ] Mapear versões atuais das APIs no projeto
+- [ ] Definir estratégia clara de versionamento
+- [ ] Atualizar documentação usando OpenAPI/Swagger
+- [ ] Validar compatibilidade entre versões antigas e novas
+
+---
+
+### 🗓 Outubro — Avanço em Padrões e Clean Architecture
+- [ ] Estudar Clean Architecture (Robert C. Martin)
+- [ ] Refatorar uma parte crítica aplicando a abordagem
+- [ ] Conduzir discussões técnicas sobre padrões com o time
+- [ ] Criar guidelines técnicos internos
+
+---
+
+### 🗓 Novembro — Maturidade em Entrega Contínua
+- [ ] Garantir releases sem intervenção manual
+- [ ] Automatizar rollback em caso de falhas no deploy
+- [ ] Definir métricas de sucesso para releases
+- [ ] Criar alertas para erros críticos em produção
+
+---
+
+### 🗓 Dezembro — Consolidação e Avaliação Final
+- [ ] Revisar todo o progresso do ano
+- [ ] Validar melhorias de performance, qualidade e testes
+- [ ] Coletar feedback do time sobre evolução técnica
+- [ ] Preparar plano do próximo ano (PDI 2026)
 
 ---
 
@@ -58,32 +108,24 @@ Elevar o nível técnico em desenvolvimento de software backend, com foco em Jav
 | Tema                          | Material Sugerido                                                                 |
 |-------------------------------|----------------------------------------------------------------------------------|
 | Arquitetura Hexagonal + DDD   | [Reflectoring.io Hexagonal](https://reflectoring.io/spring-hexagonal/)            |
-| SOLID e Clean Architecture    | [Livro: Clean Architecture (Robert C. Martin)]                                     |
+| Clean Architecture            | [Livro: Clean Architecture (Robert C. Martin)]                                     |
 | Padrões de Design Avançados   | [Refactoring Guru](https://refactoring.guru/design-patterns)                      |
 | Testes Automatizados          | [Spring Boot Testing Guide](https://spring.io/guides/gs/testing-web/)             |
 | Testcontainers                | [Testcontainers Docs](https://www.testcontainers.org/)                            |
-| API Versioning                | [Semantic Versioning](https://semver.org/)                                        |
 | SonarQube                     | [SonarQube Docs](https://docs.sonarsource.com/)                                   |
-| APM e Tracing                 | [Elastic APM](https://www.elastic.co/apm) / [OpenTelemetry](https://opentelemetry.io/) |
+| Elastic APM / OpenTelemetry   | [Elastic APM](https://www.elastic.co/apm) / [OpenTelemetry](https://opentelemetry.io/) |
 
 ---
 
-## 🧪 Métricas e Avaliação
-- Cobertura de testes (%)
-- Issues críticas corrigidas no SonarQube
-- Redução de complexidade ciclomática
-- Número de APIs versionadas corretamente
-- Ganho de performance (latência, throughput)
-- Pull requests revisadas e aprovadas com qualidade
-
----
-
-## 🛡 Riscos e Mitigações
-- **Falta de tempo** → Reservar 4h/semana fixas para estudo e aplicação.
-- **Complexidade técnica** → Dividir aprendizado em entregas pequenas e incrementais.
-- **Mudanças de prioridade no projeto** → Garantir alinhamento frequente com o gestor.
+## 🧪 Métricas de Acompanhamento
+- [ ] Cobertura de testes > 80%
+- [ ] Complexidade ciclomática reduzida em X%
+- [ ] Issues críticas no Sonar zeradas
+- [ ] Latência e throughput monitorados com metas claras
+- [ ] Pipelines CI/CD rodando sem intervenção manual
+- [ ] APIs versionadas e documentadas corretamente
 
 ---
 
 ## 🔚 Resultado Esperado no Final do Ano
-Marcos será capaz de projetar, desenvolver e entregar software backend de alta qualidade, com arquitetura sólida, testes avançados, excelente performance e total domínio sobre práticas modernas de versionamento e integração contínua.
+Marcos terá domínio técnico avançado em arquitetura, qualidade, testes e entrega backend, tornando-se uma referência no time para soluções robustas, escaláveis e bem monitoradas.
