@@ -1,51 +1,11 @@
 # 📈 Plano de Desenvolvimento Individual (PDI) — Marcos Barbosa Evangelista
 
-## 🎯 Objetivo Geral
+## 🎯 Objetivo Geral  
 Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring Boot, com foco em arquitetura, design de software, testes, qualidade e entrega contínua.
 
 ---
 
 ## 📅 Cronograma Detalhado (12 Meses)
-
-### 🗓 Janeiro — Arquitetura e Fundamentos
-- [ ] Estudar arquitetura hexagonal
-- [ ] Estudar DDD aplicado a microsserviços
-- [ ] Mapear um módulo do projeto atual para refatoração
-- [ ] Levantar acoplamentos desnecessários e dependências cruzadas
-
----
-
-### 🗓 Fevereiro — Refatoração e Design
-- [ ] Refatorar um módulo usando arquitetura hexagonal
-- [ ] Aplicar princípios SOLID no código existente
-- [ ] Revisar uso de padrões de design (strategy, factory, decorator)
-- [ ] Documentar padrões adotados no projeto
-
----
-
-### 🗓 Março — Testes Avançados (Unitário e Integração)
-- [ ] Garantir cobertura unitária > 80% nos componentes críticos
-- [ ] Introduzir testes de integração usando Spring Boot Test
-- [ ] Aprender e aplicar Testcontainers para testes com bancos reais
-- [ ] Automatizar execução de testes no pipeline CI
-
----
-
-### 🗓 Abril — Testes de Contrato e TDD
-- [ ] Estudar Spring Cloud Contract
-- [ ] Implementar testes de contrato para 1 API principal
-- [ ] Aplicar TDD em uma feature nova
-- [ ] Documentar exemplos para o time
-
----
-
-### 🗓 Maio — Qualidade de Código
-- [ ] Configurar SonarQube no projeto
-- [ ] Corrigir findings críticos e major no Sonar
-- [ ] Reduzir complexidade ciclomática nas classes mais complexas
-- [ ] Monitorar cobertura e maintainability index no pipeline
-
----
 
 ### 🗓 Junho — Integração Contínua
 - [ ] Automatizar builds, testes e lint no CI (GitHub Actions, GitLab CI)
@@ -100,6 +60,46 @@ Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring B
 - [ ] Validar melhorias de performance, qualidade e testes
 - [ ] Coletar feedback do time sobre evolução técnica
 - [ ] Preparar plano do próximo ano (PDI 2026)
+
+---
+
+### 🗓 Janeiro — Arquitetura e Fundamentos
+- [ ] Estudar arquitetura hexagonal
+- [ ] Estudar DDD aplicado a microsserviços
+- [ ] Mapear um módulo do projeto atual para refatoração
+- [ ] Levantar acoplamentos desnecessários e dependências cruzadas
+
+---
+
+### 🗓 Fevereiro — Refatoração e Design
+- [ ] Refatorar um módulo usando arquitetura hexagonal
+- [ ] Aplicar princípios SOLID no código existente
+- [ ] Revisar uso de padrões de design (strategy, factory, decorator)
+- [ ] Documentar padrões adotados no projeto
+
+---
+
+### 🗓 Março — Testes Avançados (Unitário e Integração)
+- [ ] Garantir cobertura unitária > 80% nos componentes críticos
+- [ ] Introduzir testes de integração usando Spring Boot Test
+- [ ] Aprender e aplicar Testcontainers para testes com bancos reais
+- [ ] Automatizar execução de testes no pipeline CI
+
+---
+
+### 🗓 Abril — Testes de Contrato e TDD
+- [ ] Estudar Spring Cloud Contract
+- [ ] Implementar testes de contrato para 1 API principal
+- [ ] Aplicar TDD em uma feature nova
+- [ ] Documentar exemplos para o time
+
+---
+
+### 🗓 Maio — Qualidade de Código
+- [ ] Configurar SonarQube no projeto
+- [ ] Corrigir findings críticos e major no Sonar
+- [ ] Reduzir complexidade ciclomática nas classes mais complexas
+- [ ] Monitorar cobertura e maintainability index no pipeline
 
 ---
 
