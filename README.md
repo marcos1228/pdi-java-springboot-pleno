@@ -12,6 +12,8 @@ Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring B
 - [ ] Garantir rollback seguro no pipeline
 - [ ] Criar deploy canário ou blue/green
 - [ ] Adotar semantic versioning nas APIs
+- [ ] Adotar semantic versioning nas APIs
+- [ ] pos-graduacao-em-engenharia-de-software
 
 ---
 
@@ -28,6 +30,7 @@ Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring B
 - [ ] Implementar tracing distribuído nos microsserviços
 - [ ] Integrar logs, métricas e traces em um dashboard central
 - [ ] Simular falhas e medir impacto no tracing
+- [ ] pos-graduacao-em-engenharia-de-software
 
 ---
 
@@ -44,6 +47,7 @@ Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring B
 - [ ] Refatorar uma parte crítica aplicando a abordagem
 - [ ] Conduzir discussões técnicas sobre padrões com o time
 - [ ] Criar guidelines técnicos internos
+- [ ] pos-graduacao-em-engenharia-de-software
 
 ---
 
@@ -52,6 +56,7 @@ Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring B
 - [ ] Automatizar rollback em caso de falhas no deploy
 - [ ] Definir métricas de sucesso para releases
 - [ ] Criar alertas para erros críticos em produção
+- [ ] pos-graduacao-em-engenharia-de-software
 
 ---
 
@@ -60,6 +65,7 @@ Aprimorar habilidades avançadas em desenvolvimento backend usando Java Spring B
 - [ ] Validar melhorias de performance, qualidade e testes
 - [ ] Coletar feedback do time sobre evolução técnica
 - [ ] Preparar plano do próximo ano (PDI 2026)
+- [ ] pos-graduacao-em-engenharia-de-software
 
 ---
 
